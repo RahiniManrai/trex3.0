@@ -75,7 +75,7 @@ function draw() {
   
   if (gameState===PLAY){
     
-    camera.position.x=displayWidth/2
+    camera.position.x=trex.x
     camera.position.y=trex.y
     
     score = score + Math.round(getFrameRate()/60);
