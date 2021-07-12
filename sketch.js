@@ -77,7 +77,7 @@ function draw() {
     
     camera.position.x=displayWidth/2
     camera.velocityX=-4
-    camera.position.y=y
+    camera.position.y=trex.y
     
     score = score + Math.round(getFrameRate()/60);
     ground.velocityX = -(6 + 3*score/100);
